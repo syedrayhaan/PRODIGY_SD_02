@@ -36,7 +36,18 @@ def guessing_game():
       attempts += 1
 
       if attempts % 3 == 0 and hints_used < 2:
-        hint = random.choice(["The number is even.", "The number is odd.", "The number is divisible by 3.", "The number is prime."])
+        # Generate a more relevant hint based on the random number
+        if random_number % 2 == 0:
+          hint = "The number is even."
+        else:
+          hint = "The number is odd."
+
+        if random_number % 5 == 0:
+          hint += " and a multiple of 5."
+
+        if random_number % 10 == 0:
+          hint += " and a multiple of 10."
+
         print(f"Hint: {hint}")
         hints_used += 1
 
