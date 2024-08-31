@@ -1,25 +1,25 @@
 # PRODIGY_SD_02
-## Guessing Game
+## Guessing Game: A Challenging and Engaging Experience
 
 **Description:**
 
-This Python project implements a simple guessing game. The game generates a random number between 1 and 100, and the user has to guess it. The program provides feedback on whether the guess is too high or too low. The game continues until the user correctly guesses the number, and then it displays the number of attempts it took to win.
+This Python project introduces a more engaging guessing game with added features. It offers multiple difficulty levels and provides tailored hints to make the gameplay more challenging and rewarding.
 
-**Features:**
+**Key Features:**
 
-* **Random number generation:** A random number is generated within the specified range.
-* **User input:** The program prompts the user to enter their guess.
-* **Comparison and feedback:** The guess is compared to the random number, and appropriate feedback is provided.
-* **Win condition:** The game ends when the user correctly guesses the number.
-* **Attempt counting:** The number of attempts made by the user is tracked and displayed.
+* **Difficulty Levels:** Choose from easy, medium, or hard to customize the game's challenge.
+* **Tailored Hints:** Receive helpful hints based on the characteristics of the random number.
+* **Progress Tracking:** Track your attempts and the number of hints used.
+* **User-Friendly Interface:** Enjoy a simple and intuitive gameplay experience.
 
-**How to use:**
+**How to Play:**
 
 1. Clone the repository to your local machine.
 2. Run the `guessing_game.py` file using a Python interpreter.
-3. Follow the prompts to enter your guesses.
-4. The game will provide feedback and continue until you guess the correct number.
+3. Select a difficulty level and start guessing the random number.
+4. Use the provided hints to aid your guesses.
+5. Once you correctly guess the number, your final score will be displayed.
 
 **Contributing:**
 
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
+Contributions are welcome! Feel free to fork the repository, make changes and submit a pull request.
